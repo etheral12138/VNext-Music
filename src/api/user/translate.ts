@@ -19,11 +19,9 @@ export const translateUserDetail = (res: AxiosResponse): IUser => {
  */
 export const translateUserPlaylist = (res: AxiosResponse): IMenu[] => {
   const { playlist } = res.data
-
   const menus: IMenu[] = []
   const menuCreateList: IMenuItem[] = []
   const menuCollectList: IMenuItem[] = []
-
   const playlists: IMenuItem[] = playlist.map((playlist: any) => {
     return {
       name: playlist.name,
