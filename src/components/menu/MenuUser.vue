@@ -11,7 +11,7 @@
     <div v-else class="menu-user__user" @click="loginVisible = true">
       <img
         class="menu-user__avatar"
-        src="http://p1.music.126.net/SUeqMM8HOIpHv9Nhl9qt9w==/109951165647004069.jpg"
+        src="https://p1.music.126.net/SUeqMM8HOIpHv9Nhl9qt9w==/109951165647004069.jpg"
         alt=""
       />
       <p class="menu-user__name">未登录</p>
@@ -23,7 +23,7 @@
         <div class="menu-user__uid">
           <p>
             1、请点我
-            <a href="http://music.163.com" target="_blank">(http://music.163.com)</a>打开网易云音乐官网
+            <a href="https://music.163.com" target="_blank">(https://music.163.com)</a>打开网易云音乐官网
           </p>
           <p>2、点击页面右上角的“登录”</p>
           <p>3、点击您的头像，进入我的主页</p>
