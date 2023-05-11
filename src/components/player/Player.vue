@@ -53,7 +53,9 @@ const playerStore = usePlayerStore()
  * 获取到播放地址
  */
 const currentSongSrc = computed(() =>
-  playerStore.currentSong ? `https://music.163.com/song/media/outer/url?id=${playerStore.currentSong.id}.mp3` : ''
+  playerStore.currentSong
+    ? `https://music.163.com/song/media/outer/url?id=${playerStore.currentSong.id}.mp3` // `${import.meta.env.VITE_MUSIC_URL}/song/url?id=${playerStore.currentSong.id}&timestamp=${Date.now()}`
+    : ''
 )
 
 /**
