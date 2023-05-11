@@ -123,7 +123,7 @@ const setItemRef = (el: HTMLElement): void => {
 
 watch(lineActive, (num: number) => {
   const curDom = lyricLineRefs.value[num]
-  scroller.value.scrollTop = curDom.offsetTop - 130 + curDom.offsetHeight / 2
+  scroller.value.scrollTop = curDom?.offsetTop - 130 + curDom.offsetHeight / 2
 })
 
 /**
